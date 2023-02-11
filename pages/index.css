@@ -22,3 +22,11 @@
 @import url('../blocks/top/__content/top__content.css');
 @import url('../blocks/top/__logo-item/top__logo-item.css');
 @import url('../blocks/top/__logo-list/top__logo-list.css');
+
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/_big/card_big.css');
+@import url('../blocks/card/__img/card__img.css');
+@import url('../blocks/card/__img/_big/card__img_big.css');
+@import url('../blocks/card/__subtitle/card__subtitle.css');
+@import url('../blocks/card/__title/card__title.css');
