@@ -1,4 +1,5 @@
 .header__nav-list {
+  padding: 0;
   display: flex;
   justify-content: center;
   gap: 40px;

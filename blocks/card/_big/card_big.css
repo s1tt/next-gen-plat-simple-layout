@@ -1,7 +1,13 @@
 .card_big {
-  /* grid-column: 1 / 3;
-  grid-row: 2 /4; */
   grid-column: span 2;
   grid-row: span 2;
   gap: 60px;
+}
+
+@media (max-width: 1024px) {
+  .card_big {
+    grid-column: span 1;
+    grid-row: span 1;
+    gap: 30px;
+  }
 }

@@ -1,3 +1,9 @@
 .card__img_big {
   width: 306px;
 }
+
+@media (max-width: 1024px) {
+  .card__img_big {
+    width: 98px;
+  }
+}

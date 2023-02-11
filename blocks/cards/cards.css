@@ -5,3 +5,12 @@
   gap: 30px;
   margin-bottom: 140px;
 }
+
+@media (max-width: 1024px) {
+  .cards {
+    justify-content: center;
+    grid-template-columns: repeat(1, 362px);
+    grid-template-rows: repeat(auto-fill, 389px);
+    gap: 32px;
+  }
+}

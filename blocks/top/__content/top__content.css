@@ -1,5 +1,13 @@
 .top__content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 197px;
+}
+
+@media (max-width: 1024px) {
+  .top__content {
+    justify-content: center;
+    gap: 120px;
+  }
 }

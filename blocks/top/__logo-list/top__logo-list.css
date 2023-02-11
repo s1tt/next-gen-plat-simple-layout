@@ -1,5 +1,15 @@
 .top__logo-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 72px;
   margin-bottom: 99px;
+}
+
+@media (max-width: 1024px) {
+  .top__logo-list {
+    padding: 0 50px;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 120px;
+  }
 }

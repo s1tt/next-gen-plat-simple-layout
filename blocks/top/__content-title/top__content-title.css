@@ -7,3 +7,9 @@
   color: #ffffff;
   margin-bottom: 40px;
 }
+
+@media (max-width: 1024px) {
+  .top__content-title {
+    font-size: 48px;
+  }
+}
