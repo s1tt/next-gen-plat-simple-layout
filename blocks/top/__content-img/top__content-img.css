@@ -1,0 +1,8 @@
+.top__content-img {
+}
+
+@media (max-width: 640px) {
+  .top__content-img {
+    width: 100%;
+  }
+}

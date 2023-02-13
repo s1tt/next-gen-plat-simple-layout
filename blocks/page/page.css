@@ -3,9 +3,16 @@
   padding-right: calc(50% - 1146px / 2);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1170px) {
   .page {
     padding-left: calc(50% - (768px - 16px) / 2);
     padding-right: calc(50% - (768px - 16px) / 2);
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding-left: calc(50% - (343px - 16px) / 2);
+    padding-right: calc(50% - (343px - 16px) / 2);
   }
 }

@@ -2,7 +2,7 @@
   width: 306px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1170px) {
   .card__img_big {
     width: 98px;
   }

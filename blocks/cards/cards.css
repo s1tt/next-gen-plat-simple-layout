@@ -3,10 +3,10 @@
   grid-template-columns: repeat(3, 362px);
   grid-template-rows: repeat(3, 389px);
   gap: 30px;
-  margin-bottom: 140px;
+  margin-bottom: 243px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1170px) {
   .cards {
     justify-content: center;
     grid-template-columns: repeat(1, 362px);
@@ -14,3 +14,9 @@
     gap: 32px;
   }
 }
+
+/* @media (max-width: 640px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */

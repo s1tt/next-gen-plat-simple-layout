@@ -1,4 +1,5 @@
 .top__content-title {
+  margin: 0;
   max-width: 604px;
   font-style: normal;
   font-weight: 800;
@@ -8,8 +9,17 @@
   margin-bottom: 40px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1170px) {
   .top__content-title {
     font-size: 48px;
+  }
+}
+
+@media (max-width: 640px) {
+  .top__content-title {
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 64px;
   }
 }

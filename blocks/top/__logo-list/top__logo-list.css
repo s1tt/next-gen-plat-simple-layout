@@ -1,15 +1,23 @@
 .top__logo-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 70px;
   margin-bottom: 99px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1170px) {
   .top__logo-list {
     padding: 0 50px;
     justify-content: center;
     gap: 32px;
     margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 640px) {
+  .top__logo-list {
+    margin-bottom: 204px;
   }
 }

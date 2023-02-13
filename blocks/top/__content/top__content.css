@@ -5,9 +5,16 @@
   margin-bottom: 197px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1170px) {
   .top__content {
     justify-content: center;
     gap: 120px;
+  }
+}
+
+@media (max-width: 640px) {
+  .top__content {
+    gap: 128px;
+    margin-bottom: 128px;
   }
 }

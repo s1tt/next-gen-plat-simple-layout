@@ -30,3 +30,9 @@
 @import url('../blocks/card/__img/_big/card__img_big.css');
 @import url('../blocks/card/__subtitle/card__subtitle.css');
 @import url('../blocks/card/__title/card__title.css');
+
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__img/about__info.css');
+@import url('../blocks/about/__info/about__info.css');
+@import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/about/__title/about__title.css');

@@ -1,4 +1,12 @@
 .top__content-buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
+}
+
+@media (max-width: 640px) {
+  .top__content-buttons {
+    gap: 24px;
+    justify-content: center;
+  }
 }

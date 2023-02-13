@@ -5,3 +5,10 @@
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 640px) {
+  .header__nav-link {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
