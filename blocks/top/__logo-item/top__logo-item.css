@@ -1,0 +1,11 @@
+@media (max-width: 640px) {
+  .top__logo-item:nth-child(3) {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .top__logo-item:nth-child(4) {
+    align-self: flex-start;
+  }
+}
